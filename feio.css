@@ -1,0 +1,69 @@
+
+
+h1 {
+    color:red;
+    animation: calc(animation);
+    width: 2px;
+    size: 2000px;
+
+
+}   
+label {
+
+    transform: rotate(221.2);
+    display: block;
+    background-color: rgb(128, 255, 0);
+}   
+
+section {
+    display: block;
+background-color: rgb(251, 255, 1);
+} 
+
+section:hover{
+    transform:scale(2.10);
+    box-shadow:0 0 25px red;
+scale: calc(image-rendering);
+}   
+
+nav:hover {
+transform: scale(2.10);
+box-shadow: 0 0 2020202 red;
+
+}  
+
+footer {
+
+    text-shadow: 23432px;
+
+    background-image: image(https://media.tenor.com/7zUdo7-FMMcAAAAi/skeleton-running.gif);
+}
+
+@keyframes girarPagina {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+img {
+animation: girarPagina 5s linear infinite
+
+
+
+
+
+}
+section:hover, text:hover,h1:hover,h2:hover {
+animation: girarPagina 5s linear infinite;
+transform: translate(solid);
+
+}
+
+body:hover {
+    background-color: blue;
+animation: girarPagina 5s linear infinite;
+}
